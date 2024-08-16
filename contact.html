@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Contact Us</h1>
+
+    <fieldset>
+      <legend>Some Information</legend>
+      <!-- action: whatever url u put, it goes there -->
+      <form action="mailto:zhaneena@gmail.com" method="post">
+        <p>
+          <label for="mail">Email</label>
+          <input
+            id="mail"
+            type="email"
+            placeholder="@example.com"
+            name="mail"
+          />
+        </p>
+        <p>
+          <label for="username">Username</label>
+          <input id="username" type="text" name="username" />
+        </p>
+        <h3>Your Gender</h3>
+        <p>
+          <label for="male">Male</label>
+          <input value="male" type="radio" name="gender" id="male" />
+          <label for="female">Female</label>
+          <input type="radio" value="female" name="gender" />
+        </p>
+
+        <h3>Select your hobbies</h3>
+        <p>
+          <label for="dance">Dance</label>
+          <input type="checkbox" value="dance" name="hobbies" />
+          <label for="sing">Sing</label>
+          <input type="checkbox" value="sing" />
+        </p>
+
+        <p>
+          <label for="country">Select your Country</label>
+          <select name="country" id="country">
+            <option value="nepal">Nepal</option>
+            <option value="india">India</option>
+            <option value="china">China</option>
+          </select>
+        </p>
+        <textarea>
+        </textarea>
+        </p>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+    </fieldset>
+  </body>
+</html>
+
+<!-- Inline takes full width -->
+<!-- Mail to -->
